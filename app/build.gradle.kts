@@ -4,7 +4,7 @@ plugins {
 
 android {
     namespace = "com.example.e_museum"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.example.e_museum"
@@ -43,6 +43,7 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2")
     implementation("androidx.navigation:navigation-fragment:2.7.4")
     implementation("androidx.navigation:navigation-ui:2.7.4")
+    implementation(files("libs/mysql-connector-java-5.1.4-bin.jar"))
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
